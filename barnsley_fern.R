@@ -11,12 +11,12 @@ for (n in 2:(max_itr)) { #run the iteration frm
   # starting at x = 0, y = 0
   #f1: xn+1 = 0 (chosen 1% of the time)
   #    yn+1 = 0.16 yn
-  #f2: xn+1 = ???0.15 xn + 0.28 yn (chosen 7% of the time)
+  #f2: xn+1 = -0.15 xn + 0.28 yn (chosen 7% of the time)
   #    yn+1 = 0.26 xn + 0.24 yn + 0.44
-  #f3: xn+1 = 0.2 xn ??? 0.26 yn (chosen 14% of the time)
+  #f3: xn+1 = 0.2 xn - 0.26 yn (chosen 14% of the time)
   #    yn+1 = 0.23 xn + 0.22 yn + 1.6
   #f4: xn+1 = 0.85 xn + 0.04 yn (chosen 85% of the time)
-  #    yn+1 = ???0.04 xn + 0.85 yn + 1.6
+  #    yn+1 = -0.04 xn + 0.85 yn + 1.6
   
   # I have subtracted 1 at every iteration from n so I dont have to add
   # 1 to f(x), basically moved subtracted from the both sides
