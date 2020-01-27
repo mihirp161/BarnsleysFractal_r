@@ -1,2 +1,23 @@
-# barnsleys_fractal
-Making Dr. Barnsley's fern fractal using only base R tools.
+Project
+--------
+A fractal of Fern
+
+Project Discription
+--------------------
+Just wanted to make another quick fractal image of a fern with IFS using only base tools in R.   
+
+Langauge
+---------
+R
+
+Packages
+--------
+viridis (for color only)
+
+Author
+------
+Mihir Patel
+
+Reading Source
+------
+"Barnsley's Fern" (https://en.wikipedia.org/wiki/Barnsley_fern)
