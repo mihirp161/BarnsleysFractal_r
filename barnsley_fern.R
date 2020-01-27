@@ -19,7 +19,7 @@ for (n in 2:(max_itr)) { #run the iteration to get next points
   #    yn+1 = -0.04 xn + 0.85 yn + 1.6
   
   # I have subtracted 1 at every iteration from n so I dont have to add
-  # 1 to f(x), basically moved subtracted from the both sides
+  # 1 to f(x), basically subtracted from both sides
   
   if (rand_num < 1) { 
     x[n]<- 0
