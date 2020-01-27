@@ -45,6 +45,6 @@ color <- viridis::viridis(40) #color palette
 #Saving the plot
 png(filename="fern.png", bg= "floralwhite",height = 1920, width = 1080, units = "px", res= 150) 
 plot(x,y, pch='.', xlab= "", ylab = "", col= color)
-title(xlab = "Span", ylab = "Arch", col.lab ="indianred4")
+title(xlab = "Rachilla & Pinnule", ylab = "Rachis", col.lab ="indianred4")
 
 dev.off()
