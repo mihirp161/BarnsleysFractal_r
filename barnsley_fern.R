@@ -5,7 +5,7 @@ max_itr<-1000000 #number of iterations
 x <- rep(0, times=max_itr) #make vector of 0s
 y <- x #copy the vector
 
-for (n in 2:(max_itr)) { #run the iteration frm
+for (n in 2:(max_itr)) { #run the iteration to get next points
   
   rand_num=runif(1, 0, 100) #generate a random number between 0-100
   # starting at x = 0, y = 0
