@@ -1,6 +1,7 @@
 library(viridis) #just for colouring purpose
 
 max_itr<-1000000 #number of iterations
+color <- viridis::viridis(40) #color palette
 
 x <- rep(0, times=max_itr) #make vector of 0s
 y <- x #copy the vector
@@ -39,8 +40,6 @@ for (n in 2:(max_itr)) { #run the iteration to get next points
   }
   
 }
-
-color <- viridis::viridis(40) #color palette
 
 #Saving the plot
 png(filename="fern.png", bg= "floralwhite",height = 1920, width = 1080, units = "px", res= 150) 
