@@ -1,3 +1,4 @@
+library(viridisLite)
 library(viridis) #just for colouring purpose
 
 max_itr<-1000000 #number of iterations
@@ -43,7 +44,7 @@ for (n in 2:(max_itr)) { #run the iteration to get next points
 
 #Saving the plot
 png(filename="fern.png", bg= "floralwhite",height = 1920, width = 1080, units = "px", res= 150) 
-plot(x,y, pch='.', xlab= "", ylab = "", col= color)
-title(xlab = "Rachilla & Pinnule", ylab = "Rachis", col.lab ="indianred4")
+plot(x,y, pch='.', xlab= "", ylab = "", col= color, )
+title(xlab = "Rachilla & Pinnule", ylab = "Rachis", col.lab ="indianred4", main= "the Barnsley fern", col.main= "mediumaquamarine", font.main= 4)
 
 dev.off()
