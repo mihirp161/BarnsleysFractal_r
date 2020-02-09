@@ -12,7 +12,7 @@ R
 
 Packages
 --------
-viridis (for color only)
+viridis, viridislite (for color only)
 
 Author
 ------
