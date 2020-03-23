@@ -18,6 +18,10 @@ Author
 ------
 Mihir Patel
 
+blog
+-----
+[Read my blog here!](https://opendatasurgeon.github.io/barnsleysFern/)
+
 Reading Source
 ------
 [the Barnsley's Fern](https://en.wikipedia.org/wiki/Barnsley_fern)
