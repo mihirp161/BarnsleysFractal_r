@@ -20,7 +20,7 @@ Mihir Patel
 
 blog
 -----
-[Read my blog here!](https://opendatasurgeon.github.io/barnsleysFern/)
+[Read my blog here!](https://mihirp161.github.io/barnsleysFern/)
 
 Reading Source
 ------
